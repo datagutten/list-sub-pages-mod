@@ -262,7 +262,7 @@ function ls_shortcode($atts)
 	{
 		$order[$key] = $attachment->menu_order;	
 	}
-	$order = asort($order); //Sort by values
+	asort($order); //Sort by values
 
    	if($attachments)
    	{
