@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-17 11:50+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: avinash <avinashmz@projectdemo.biz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/harshkg/Desktop/Link to harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin\n"
+"X-Poedit-SearchPath-1: /home/harshkg/Desktop/Link to harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin\n"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:124
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:71
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:120
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:71
+msgid "Title"
+msgstr "Titel"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:128
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:124
+msgid "Options for Displaying the Subpages"
+msgstr "Optionen für die Anzeige der Unterseiten"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:130
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:126
+msgid "Sorting Order"
+msgstr "Sortierreihenfolge"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:133
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:221
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:85
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:187
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:129
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:217
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:85
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:187
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:133
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:221
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:85
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:129
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:217
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:85
+msgid "Descending"
+msgstr "Absteigend"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:144
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:140
+msgid "Options for Displaying the Parent Pages when their is no subpages to be displayed"
+msgstr "Optionen für die Anzeige der Seiten, wenn ihre Eltern ist keine Unterseiten angezeigt werden"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:142
+msgid "Sorting Criteria"
+msgstr "Sortierkriterium"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Page ID"
+msgstr "Seite ID"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Page Title"
+msgstr "page Titel"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Menu Order"
+msgstr "Menü Auftrag"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Date Created"
+msgstr "Erstellungsdatum"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Date Modified"
+msgstr "Änderungsdatum"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Page Author"
+msgstr "Seite Autor"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:150
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:146
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:119
+msgid "Post Slug"
+msgstr "Sende Slug"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:180
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:134
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:176
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:134
+msgid "Exclude Pages"
+msgstr "Ausschließen Seiten"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:162
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:198
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:162
+msgid "Depth Level"
+msgstr "Tiefe Niveau"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:206
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+msgid "1st Level Depth"
+msgstr "1st Level Tiefe"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:206
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+msgid "2nd Level Depth"
+msgstr "2nd Level Tiefe"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:206
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+msgid "3rd Level Depth"
+msgstr "3rd Level Tiefe"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:206
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+msgid "4th Level Depth"
+msgstr "4. Ebene Tiefe"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:206
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:202
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:168
+msgid "Unlimited Depth"
+msgstr "Unbegrenzte Tiefe"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:218
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:214
+msgid "Sorting Order For Parent Pages"
+msgstr "Sortierung für Eltern Seiten"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:60
+msgid "My Sub Page Plugin Options"
+msgstr "Meine Seite Sub Plugin Optionen"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:64
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:64
+msgid "Sub Page Display Options"
+msgstr "Sub Seite Anzeige-Eigenschaften"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:65
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:65
+msgid "Select the subpage dislaying options if subpage exists for that particular parent page."
+msgstr "Wählen Sie die Optionen, wenn dislaying Unterseite Unterseite besteht für die jeweilige übergeordnete Seite."
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:79
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:79
+msgid "Sort Order"
+msgstr "Sortierung"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:100
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:100
+msgid "Parent Pages Display Options"
+msgstr "Übergeordnete Seiten Anzeigeoptionen"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:101
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:101
+msgid "Select the options to add effect in the parent pages display when subpages are not available to display."
+msgstr "Wählen Sie die Optionen, um Wirkung in den übergeordneten Seiten hinzufügen angezeigt wird, wenn Unterseiten nicht verfügbar sind, angezeigt werden."
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:106
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:106
+msgid "Sorting Criteria:"
+msgstr "Sortierung erfolgt nach:"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:181
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:181
+msgid "Parent Sort Order"
+msgstr "Eltern Sortierung"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:200
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:200
+msgid "Dynamic Shortcode"
+msgstr "Dynamische Shortcode"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:201
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:201
+msgid "Please Copy This Shortcode and paste where you want to display subpages or parent pages."
+msgstr "Bitte kopieren Sie diese Kurzwahl und fügen Sie, wo Sie auf Unterseiten oder übergeordneten Seiten anzeigen möchten."
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:205
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:205
+msgid "Dynamic Shortcode:"
+msgstr "Dynamische Shortcode:"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/live_backup/wordpress_3.5/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:211
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:211
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:92
+msgid "Displays the list of subpages for that particular parent page else will display the list of parent pages."
+msgstr "Zeigt die Liste der Unterseiten für die jeweilige übergeordnete Seite sonst wird die Liste der übergeordneten Seiten."
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/plugin_list_subpage.php:93
+msgid "Sub Pages Widget"
+msgstr "Sub Pages Widget"
+
+#: /home/harshkg/Desktop/Link to
+#: harshkg/study/PHP/live_projects/wordpress_3.6/wp-content/plugins/list_subpage_plugin/views/Back-End/create_shortcode.php:60
+msgid "Sub Page Plugin Options"
+msgstr "Sub Seite Plugin Optionen"
+
+#~ msgid "ASC"
+#~ msgstr "ASC"
+#~ msgid "DESC"
+#~ msgstr "DESC"
+
