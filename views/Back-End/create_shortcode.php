@@ -247,21 +247,29 @@ function ls_shortcode($atts)
 	$page_id= $post->ID;
 	
 	$args = array(
-			'order' => $sort_order,
-			'post_parent' => $page_id,
+			'sort_order' => $sort_order,
+			'sort_column' => $sort_by_values,
+			'parent' => $page_id,
 			'post_status' => 'publish',
 			'post_type' => 'page',
 	);
 	
-	$attachments = get_children( $args );
+	$attachments = get_pages( $args );
 	
    	$ls_str .= '<ul class="ls_page_list">';
+	//Create an array with menu order as value and attachment key as key
+	foreach($attachments as $key=>$attachment)
+	{
+		$order[$key] = $attachment->menu_order;	
+	}
+	$order = asort($order); //Sort by values
+
    	if($attachments)
    	{
-		foreach($attachments as $attachment)
-   	    	{
-   	    		$ls_str .= '<li><a href="'.$attachment->guid.'">'.$attachment->post_title.'</a></li>';	
-   	    	}
+		foreach(array_keys($order) as $attachment_key)
+		{
+			$ls_str .= '<li><a href="'.$attachments[$attachment_key]->guid.'">'.$attachments[$attachment_key]->post_title.'</a></li>';	
+		}
    	}
    	else 
    	{	$args = array(

@@ -1,8 +1,8 @@
 === List Subpages ===
-Contributors: Weblineindia
+Contributors: Weblineindia, datagutten
 Tags: subpages, list subpages,list subpages widget,list subpages shortcode.
 Requires at least: 3.2
-Tested up to: 4.1
+Tested up to: 4.6
 License: GPL
 Stable tag: 1.0
 
