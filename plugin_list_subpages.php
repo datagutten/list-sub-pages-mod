@@ -4,7 +4,7 @@ Plugin Name:List Sub Pages modified
 Plugin URI: http://www.weblineindia.com/
 Description: Creates a widget and  shortcode with different functionalities for displaying the sub pages or parent pages.
 Author: Weblineindia, datagutten
-Version: 1.1
+Version: 1.2
 Author URI: http://www.weblineindia.com/
 */
 

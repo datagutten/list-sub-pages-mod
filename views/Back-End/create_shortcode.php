@@ -254,6 +254,9 @@ function ls_shortcode($atts)
 			'post_type' => 'page',
 	);
 	
+	if ( current_user_can( 'read_private_pages' ) ) 
+		$args['post_status'] = 'publish,private';
+
 	$attachments = get_pages( $args );
 	
    	$ls_str .= '<ul class="ls_page_list">';
