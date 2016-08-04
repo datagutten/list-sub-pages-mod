@@ -88,7 +88,7 @@ class ls_sub_pages extends WP_Widget
 		$widget_ops = array('classname' => 'ls_sub_pages','description' => __('Displays the list of subpages for that particular parent page else will display the list of parent pages.','subpage')
 				);
 		
-		$this->WP_Widget('ls_sub_pages', __('Sub Pages Widget','subpage'), $widget_ops);
+		parent::__construct('ls_sub_pages', __('Sub Pages Widget','subpage'), $widget_ops);
 		add_shortcode('sub_page','ls_shortcode');
 		
 	}
