@@ -205,96 +205,95 @@ function ls_options_page() {
     <?php
 }
 
+$dom = new DOMDocument;
+$dom->formatOutput = true;
+
 /**
- *  It is used to render the output when the shortcode is called.	 
+ * Create a <ul> list of sub pages recursing into the given depth
  *
- *  @return             ARRAY
- *  @var				$atts datatype is ARRAY
- *  @author             HG
-
+ * @param string $post_id Post ID
+ * @param $atts
+ * @param bool $current_depth
+ *
+ * @return bool|DOMElement ul object
+ * @since 2.0.0
+ *
  */
-function ls_shortcode($atts)
-{
-	global $post;
-	extract(shortcode_atts(array(
-					'title' => '',
-					'sort_order'=>'',
-					'sort_by_values'=>'',
-					'exclude_page_id'=>'',
-					'depth'=>'',
-					'sort_order_parent'=>''
-				), $atts));
-
-	
-	$title = empty($title) ? 'Pages' : $title;
-	 
-	$sort_order=empty($sort_order) ? 'ASC' : $sort_order;
-	 
-	$sort_by_values=empty($sort_by_values) ? 'page_title ' : $sort_by_values;
-	 
-	$exclude_page_id=empty($exclude_page_id) ? ' ' : $exclude_page_id;
-	 
-	$depth=empty($depth) ? '1' : $depth;
-	 
-	$sort_order_parent=empty($sort_order_parent) ? 'ASC' : $sort_order_parent;
-	 
-	$ls_str = '';
-	$ls_str .= '<div class="ls_container">';
-	$ls_str .= '<h3 class="widget_title">'.$title.'</h3>' ;
-	 
-	// WIDGET CODE GOES HERE
-	 
-	$page_id= $post->ID;
-	
+function list_children( $post_id, $atts, $current_depth = false ) {
+	global $dom;
 	$args = array(
-			'sort_order' => $sort_order,
-			'sort_column' => $sort_by_values,
-			'parent' => $page_id,
-			'post_status' => 'publish',
-			'post_type' => 'page',
+		'sort_order' => $atts['sort_order'],
+		'sort_column' => $atts['sort_by_values'],
+		'parent' => $post_id,
+		'post_status' => 'publish',
+		'post_type' => 'page',
+		'depth' => 1,
 	);
-	
-	if ( current_user_can( 'read_private_pages' ) ) 
+	if ( current_user_can( 'read_private_pages' ) ) {
 		$args['post_status'] = 'publish,private';
-
-	$attachments = get_pages( $args );
-	
-   	$ls_str .= '<ul class="ls_page_list">';
-	//Create an array with menu order as value and attachment key as key
-	foreach($attachments as $key=>$attachment)
-	{
-		$order[$key] = $attachment->menu_order;	
 	}
-	asort($order); //Sort by values
+	if ( false === $current_depth ) {
+		$current_depth = 1;
+	} else {
+		$current_depth++;
+	}
 
-   	if($attachments)
-   	{
-		foreach(array_keys($order) as $attachment_key)
-		{
-			$ls_str .= '<li><a href="'.$attachments[$attachment_key]->guid.'">'.$attachments[$attachment_key]->post_title.'</a></li>';	
+	$pages = get_pages( $args );
+	if ( empty( $pages ) ) {
+		return false;
+	}
+
+	$ul = $dom->createElement( 'ul' );
+
+	foreach ( $pages as $current_post ) {
+		$li = $dom->createElement( 'li' );
+		$ul->appendChild( $li );
+		$li->setAttribute( 'class','level' . $current_depth );
+
+		$a = $dom->createElement( 'a', $current_post->post_title );
+		$a->setAttribute( 'href', $current_post->guid );
+		$li->appendChild( $a );
+
+		$ul_sub = list_children( $current_post->ID,$atts,$current_depth );
+		if ( false !== $ul_sub && (0 == $atts['depth'] || $current_depth < $atts['depth']) ) {
+			$li->appendChild( $ul_sub );
 		}
-   	}
-   	else 
-   	{	$args = array(
-   				'depth'=> $depth,
-   	    			'title_li' => '',
-   				'echo' => 0,
-   				'sort_order'=>$sort_order_parent,
-   				'sort_column' => $sort_by_values,
-   				'post_type'    => 'page',
-   				'post_status'  => 'publish',
-   	 	                'exclude'=>$exclude_page_id,
-   			);
-   				$pages = wp_list_pages($args);
-   				
-   				$ls_str .= $pages;		
-   	}
-   	
-   	$ls_str .= '</ul>';
-	$ls_str .= '</div>';
-	
-	return $ls_str;
-   }
-   
-      
-?>
+	}
+	return $ul;
+}
+
+/**
+ *  It is used to render the output when the shortcode is called.
+ *
+ * @return false|string|void
+ * @param array Attributes
+ * @author             HG
+ */
+function ls_shortcode( $atts ) {
+	global $post;
+	global $dom;
+	$atts = shortcode_atts(array(
+					'title' => 'Pages',
+					'sort_order' => 'ASC',
+					'sort_by_values' => 'page_title',
+					'exclude_page_id' => '',
+					'depth' => '1',
+					'sort_order_parent' => 'ASC',
+	), $atts);
+	$ul = list_children( $post->ID,$atts );
+	if ( false === $ul ) {
+		return;
+	}
+
+	$div = $dom->createElement( 'div' );
+	$div->setAttribute( 'class','ls_container' );
+
+	$h3 = $dom->createElement( 'h3',$atts['title'] );
+	$h3->setAttribute( 'class','widget_title' );
+	$div->appendChild( $h3 );
+
+	$ul->setAttribute( 'class','ls_page_list' );
+	$div->appendChild( $ul );
+
+	return $dom->saveXML( $div );
+}
